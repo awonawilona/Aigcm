@@ -1,0 +1,612 @@
+/* CSS Document */
+form{
+	display:block;
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+	}
+label{
+	float:left;
+	height:20px;
+	border:1px solid #FFF;
+	}
+input{
+	margin:0;
+	padding:0;
+	border:1px #CCC solid;
+	height:15px;
+	color:#666;
+	float:left;
+}
+input[type="file"]{
+    margin-top: -5px;
+}
+input[type="checkbox"]{
+	height:10px;
+	margin-top:3px;
+	margin-right:10px;
+	margin-left:5px;
+}
+input:focus, textarea:focus {
+  border: 1px solid #999;
+}
+textarea{
+	border:1px #CCC solid;
+	width:100%;
+	font-family:"Lucida Grande",Century,Verdana, Geneva, sans-serif;
+	color:#666;
+	font-size:11px;
+	line-height:1.5em;
+}
+
+/* REGISTRO */
+form#registro label{
+	margin-right:5px;
+}
+form#registro input{
+	padding:1px 5px;
+	width:130px;
+	margin-right:10px;
+}
+form#registro input.enviar{
+	font-size:11px;
+	padding:0px 10px;
+	margin-left:10px;
+	height:19px;
+	width:80px;
+	background-color:#F4F4F4;
+	color:#999;
+}
+form#registro input:hover.enviar{
+	background-color:#E4E4E4;
+}
+/* ADMINISTRACION */
+div.general label{
+	width:175px;
+}
+div.noticias label{
+	width:170px;
+}
+div.noticias input{
+	width:50px;
+	margin-right:40px;
+}
+div.bibliotecas label.titulo{
+	width:175px;
+}
+div.galeria label{
+	width:170px;
+}
+div.galeria input{
+	width:75px;
+	margin-right:20px;
+}
+div.galeria input.left{
+	width:33px;
+	margin-right:7px;
+}
+div.galeria input.right{
+	width:33px;
+	margin-right:20px;
+}
+div.usuario label.titulo{
+	width:175px;
+}
+/* NOTICIA */
+form#AwoNoticiaAddForm h2 div{
+	float:right;
+	font-weight:normal;
+	color:#999;
+	}
+form#AwoNoticiaAddForm h2 div label{
+	width:auto;
+	margin-top:0;
+	}
+form#AwoNoticiaAddForm h2 input[type="checkbox"]{
+	margin-right:5px;
+	margin-left:10px;
+	}
+form#AwoNoticiaAddForm input[type="file"]{
+	height: 30px;
+    margin-left: 0px;
+}
+form#AwoNoticiaAddForm input[type="text"]{
+	display:block;
+	float:left;
+	width:100%;
+	height:20px;
+}
+form#AwoNoticiaAddForm input[type="button"]{
+	display:block;
+	border:1px solid #CCC;
+	margin-top:10px;
+	height:20px;
+	padding:0 20px;
+	clear:both;
+}
+form#AwoNoticiaAddForm label{
+	margin-top:12px;
+	display:block;
+	float:left;
+}
+form#AwoNoticiaAddForm textarea#entradilla{
+	height:80px;
+}
+form#AwoNoticiaAddForm textarea#contenido{
+	height:400px;
+}
+form#AwoNoticiaAddForm label.top{
+	margin-top:0;
+}
+form#AwoNoticiaAddForm label div{
+	float:right;
+}
+form#AwoNoticiaAddForm label a{
+	float:right;
+	margin-top:5px;
+}
+form#AwoNoticiaAddForm legend{
+	margin-top:20px;
+	margin-bottom:20px;
+    margin-right:20px;
+	display:block;
+	float:left;
+    width: 100%;
+}
+form#AwoNoticiaAddForm span{
+	float:left;
+}
+form#AwoNoticiaEditForm h2 div{
+	float:right;
+	font-weight:normal;
+	color:#999;
+	}
+form#AwoNoticiaEditForm h2 div label{
+	width:auto;
+	margin-top:0;
+	}
+form#AwoNoticiaEditForm h2 input[type="checkbox"]{
+	margin-right:5px;
+	margin-left:10px;
+	}
+form#AwoNoticiaEditForm input[type="file"]{
+	height: 30px;
+    margin-left: 0px;
+}
+form#AwoNoticiaEditForm input[type="text"]{
+	display:block;
+	float:left;
+	width:100%;
+	height:20px;
+}
+form#AwoNoticiaEditForm input[type="button"]{
+	display:block;
+	border:1px solid #CCC;
+	margin-top:10px;
+	height:20px;
+	padding:0 20px;
+	clear:both;
+}
+form#AwoNoticiaEditForm label{
+	margin-top:12px;
+	display:block;
+	float:left;
+}
+form#AwoNoticiaEditForm textarea#entradilla{
+	height:80px;
+}
+form#AwoNoticiaEditForm textarea#contenido{
+	height:400px;
+}
+form#AwoNoticiaEditForm label.top{
+	margin-top:0;
+}
+form#AwoNoticiaEditForm label div{
+	float:right;
+}
+form#AwoNoticiaEditForm label a{
+	float:right;
+	margin-top:5px;
+}
+form#AwoNoticiaEditForm legend{
+	margin-top:20px;
+	margin-bottom:20px;
+    margin-right:20px;
+	display:block;
+	float:left;
+    width: 100%;
+}
+form#AwoNoticiaEditForm span{
+	float:left;
+}
+/* ARCHIVO */
+form#AwoBibliotecaAddForm h2 div{
+	float:right;
+	font-weight:normal;
+	color:#999;
+	}
+form#AwoBibliotecaAddForm h2 div label{
+	width:auto;
+	margin-top:0;
+	}
+form#AwoBibliotecaAddForm h2 input[type="checkbox"]{
+	margin-right:5px;
+	margin-left:10px;
+	}
+form#AwoBibliotecaAddForm input[type="text"]{
+	display:block;
+	float:left;
+	width:100%;
+	height:20px;
+}
+form#AwoBibliotecaAddForm input[type="file"]{
+	height: 30px;
+    margin-left: 20px;
+}
+form#AwoBibliotecaAddForm input[type="radio"]{
+	display:block;
+	float:left;
+	margin-top:23px;
+	margin-bottom:20px;
+	height:12px;
+	margin-left:8px;
+}
+form#AwoBibliotecaAddForm input[type="button"]{
+	display:block;
+	border:1px solid #CCC;
+	margin-top:10px;
+	height:20px;
+	padding:0 20px;
+	clear:both;
+	float:left;
+}
+/*form#AwoBibliotecaAddForm label{
+	margin-top:30px;
+	display:block;
+	float:left;
+	width:100%;
+}*/
+form#AwoBibliotecaAddForm label{
+	margin-top:20px;
+	margin-bottom:20px;
+	display:block;
+	float:left;
+	width:30px;
+}
+form#AwoBibliotecaAddForm legend{
+	margin-top:20px;
+	margin-bottom:20px;
+    margin-right:20px;
+	display:block;
+	float:left;
+}
+form#AwoBibliotecaAddForm label.titulo{
+	margin-top:20px;
+	margin-bottom:20px;
+	display:block;
+	float:left;
+	width:100px;
+	clear:left;
+	margin-right:10px;
+}
+form#AwoBibliotecaAddForm textarea#entradilla{
+	height:80px;
+}
+form#AwoBibliotecaAddForm textarea#contenido{
+	height:400px;
+}
+form#AwoBibliotecaAddForm label.top{
+	margin-top:0;
+}
+form#AwoBibliotecaAddForm label div{
+	float:right;
+}
+form#AwoBibliotecaAddForm label a{
+	float:right;
+	margin-top:5px;
+}
+.contador{
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+    text-align: right;
+}
+
+form#AwoBibliotecaEditForm h2 div{
+	float:right;
+	font-weight:normal;
+	color:#999;
+	}
+form#AwoBibliotecaEditForm h2 div label{
+	width:auto;
+	margin-top:0;
+	}
+form#AwoBibliotecaEditForm h2 input[type="checkbox"]{
+	margin-right:5px;
+	margin-left:10px;
+	}
+form#AwoBibliotecaEditForm input[type="text"]{
+	display:block;
+	float:left;
+	width:100%;
+	height:20px;
+}
+form#AwoBibliotecaEditForm input[type="file"]{
+	height: 30px;
+    margin-left: 20px;
+}
+form#AwoBibliotecaEditForm input[type="radio"]{
+	display:block;
+	float:left;
+	margin-top:23px;
+	margin-bottom:20px;
+	height:12px;
+	margin-left:8px;
+}
+form#AwoBibliotecaEditForm input[type="button"]{
+	display:block;
+	border:1px solid #CCC;
+	margin-top:10px;
+	height:20px;
+	padding:0 20px;
+	clear:both;
+	float:left;
+}
+/*form#AwoBibliotecaAddForm label{
+	margin-top:30px;
+	display:block;
+	float:left;
+	width:100%;
+}*/
+form#AwoBibliotecaEditForm label{
+	margin-top:20px;
+	margin-bottom:20px;
+	display:block;
+	float:left;
+	width:30px;
+}
+form#AwoBibliotecaEditForm legend{
+	margin-top:20px;
+	margin-bottom:20px;
+    margin-right:20px;
+	display:block;
+	float:left;
+}
+form#AwoBibliotecaEditForm label.titulo{
+	margin-top:20px;
+	margin-bottom:20px;
+	display:block;
+	float:left;
+	width:100px;
+	clear:left;
+	margin-right:10px;
+}
+form#AwoBibliotecaEditForm textarea#entradilla{
+	height:80px;
+}
+form#AwoBibliotecaEditForm textarea#contenido{
+	height:400px;
+}
+form#AwoBibliotecaEditForm label.top{
+	margin-top:0;
+}
+form#AwoBibliotecaEditForm label div{
+	float:right;
+}
+form#AwoBibliotecaEditForm label a{
+	float:right;
+	margin-top:5px;
+}
+
+form#titulo_imagen label{
+	display:block;
+	float:left;
+	width:100%;
+}
+form#titulo_imagen label div{
+	float:right;
+}
+form#titulo_imagen input[type="text"]{
+	width:420px;
+	height:20px;
+	margin-top:10px;
+}
+form#titulo_imagen input[type="submit"]{
+	padding:0px 20px;
+	height:22px;
+	margin-top:10px;
+}
+form#anadir_img label{
+	display:block;
+	float:left;
+	width:100%;
+}
+form#anadir_img input[type="text"]{
+	width:420px;
+	height:20px;
+	margin-top:10px;
+}
+form#anadir_img input[type="button"]{
+	padding:0px 20px;
+	height:22px;
+	margin-top:10px;
+}
+form#anadir_img input#publicar{
+	float:left;
+}
+form#AwoUsuarioAddForm input[type="text"]{
+	color:#999999;
+	width:150px;
+	height:20px;
+	margin-right:10px;
+	margin-bottom:10px
+}
+form#AwoUsuarioAddForm input[type="radio"]{
+	height:12px;
+	margin-right:0;
+	margin-top:3px;
+	padding:0;
+	margin-top:13px;
+}
+form#AwoUsuarioAddForm label{
+	display:block;
+	width:100%;
+	margin-top:10px;
+	height:20px;
+	margin-right:10px;
+}
+form#AwoUsuarioAddForm .radio label{
+	padding:10px 25px 0px 5px;
+	height:20px;
+	width:auto;
+	margin:0;
+}
+form#AwoUsuarioAddForm label.top{
+	margin-top:0px;
+}
+form#AwoUsuarioAddForm legend{
+	width:auto;
+	margin-right:20px;
+}
+form#AwoUsuarioAddForm label.txt{
+	padding:10px 25px 0px 5px;
+	height:20px;
+	width:auto;
+	margin:0;
+}
+form#AwoUsuarioEditForm input[type="text"]{
+	color:#999999;
+	width:150px;
+	height:20px;
+	margin-right:10px;
+	margin-bottom:10px
+}
+form#AwoUsuarioEditForm input[type="radio"]{
+	height:12px;
+	margin-right:0;
+	margin-top:3px;
+	padding:0;
+	margin-top:13px;
+}
+form#AwoUsuarioEditForm label{
+	display:block;
+	width:100%;
+	margin-top:10px;
+	height:20px;
+	margin-right:10px;
+}
+form#AwoUsuarioEditForm .radio label{
+	padding:10px 25px 0px 5px;
+	height:20px;
+	width:auto;
+	margin:0;
+}
+form#AwoUsuarioEditForm label.top{
+	margin-top:0px;
+}
+form#AwoUsuarioEditForm legend{
+	width:auto;
+	margin-right:20px;
+}
+form#AwoUsuarioEditForm label.txt{
+	padding:10px 25px 0px 5px;
+	height:20px;
+	width:auto;
+	margin:0;
+}
+
+.input{
+    width: 100%;
+    float: left;
+}
+
+.input label{
+    display:block;
+	width:20%;
+	height:20px;
+	margin-right:10px;
+}
+
+.input input[type="text"]{
+	color:#999999;
+	width:150px;
+	height:20px;
+	margin-right:10px;
+	margin-bottom:10px
+}
+
+.input input[type="radio"]{
+	height:12px;
+	margin-right:0;
+	padding:0;
+}
+
+.input input[type="checkbox"]{
+    height:12px;
+	margin-right:0;
+	padding:0;
+    margin-left: 0px;
+}
+
+.radio label{
+    width: auto;
+    display: inline-block;
+}
+
+.checkbox label{
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.input select{
+    color:#999999;
+	width:60px;
+	height:20px;
+    display: inline-block;
+	margin-right:10px;
+    margin-left: 10px;
+	margin-bottom:10px;
+}
+
+.input input[type="password"]{
+	color:#999999;
+	width:150px;
+	height:20px;
+	margin-right:10px;
+	margin-bottom:10px
+}
+
+.datetime{
+    float: left;
+    width: 100%;
+}
+
+.checkbox{
+    width: 91px;
+    float: left;
+}
+
+/* PUBLICAR */
+input#publicar{
+	float:right;
+	height:20px;
+	padding:2px 30px 4px 30px;
+	clear:both;
+	margin-top:20px;
+	}
+input:hover#publicar{
+	background-color:#E4E4E4;
+}
+
+.submit input{
+    float:right;
+	height:20px;
+	padding:2px 30px 4px 30px;
+	clear:both;
+	margin-top:20px;
+}
+
+.submit input:hover{
+	background-color:#E4E4E4;
+}

@@ -1,0 +1,29 @@
+/* CSS Document */
+
+table#listado{
+	width:100%;
+	float:left;
+	}
+table#listado tr{
+	border-bottom:1px solid #CCC;
+	}
+table#listado td{
+	padding:5px 0px;
+	
+	}
+table#listado td.td_img{
+	width:20px;
+	text-align:center;
+	}
+table#listado td.td_txt{
+	padding-left:10px;
+	}
+table#listado td.td_txt img{
+	padding-left:10px;
+	float:right;
+	margin-right:20px;
+	}
+table#listado td.td_fecha{
+	text-align:right;
+	padding-right:10px;
+	}

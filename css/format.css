@@ -1,0 +1,369 @@
+/* CSS Document */
+body{
+	font-family: "Lucida Grande", Century, "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
+	font-size:12px;
+	color:#666;
+	}
+p{
+	line-height:1.5em;
+	}
+a{
+	color:#337FA6;
+}
+a:hover{
+	color:#94AA26;
+}
+/* Header */
+div#header{
+	border-bottom:1px #CCC solid;
+}
+div#menu a{
+	font-size:1em;
+	color:#666;
+	text-decoration:none;
+	margin-left:12px;
+}
+div#menu a:hover{
+	color:#94A426;
+}
+div#header form{
+	font-size:1em;
+	color:#94AA26;
+}
+div#header form input{
+	font-size:0.8em;
+	height:14px;
+	border:none;
+	width:60px;
+	background-color:#fff;
+	color:#666;
+	margin-left:3px;
+	margin-top:3px;
+}
+div#header form input[type="submit"]{
+	width:15px;
+	background-color: #CAD593;
+	height:15px;
+	margin-top:4px;
+	color:#FFF;
+}
+div#start h1{
+	width:399px;
+	height:37px;
+	background-image:url(../img/tt_bienvenida.png);
+	text-indent:-2000px;
+	margin-bottom:10px;
+	}
+div#start p{
+	font-size:1.1em;
+	line-height:1.5em;
+	margin-bottom:10px;
+}
+/* Siderbar */
+div#sidebar h2{
+	width:300px;
+	height:18px;
+	background-repeat:no-repeat;
+	text-indent:-2000px;
+	margin-bottom:10px;
+	float:left;
+	}
+div#sidebar h2#contacto{
+	background-image:url(../img/tt_contacto.png);
+}
+div#sidebar h2#enlaces{
+	background-image:url(../img/tt_enlaces.png);
+	margin-top:10px;
+	padding-bottom:20px;
+	border-bottom:1px #E4E4E4 solid;
+	padding-top:10px;
+	border-top:1px #CCC solid;
+	background-position:10px;
+	
+}
+div#sidebar h2#enlaces_top{
+	background-image:url(../img/tt_enlaces.png);
+	padding-bottom:20px;
+	border-bottom:1px #E4E4E4 solid;
+	
+}
+div#sidebar ul li{
+	font-size:0.9em;
+	border-bottom:1px #E4E4E4 solid;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	line-height:1.5em;
+	}
+div#sidebar ul li a{
+	text-decoration:none;
+	color:#999;
+	}
+div#sidebar ul li a:hover{
+	color:#94AA26;
+	}
+div#sidebar a#haztesocio{
+	display:block;
+	float:left;
+	height:60px;
+	width:300px; 
+	background-image:url(../img/haztesocio.png);
+	text-indent:-20000px;
+	margin:0px 0px 10px 0px;
+}
+div#sidebar a#coig{
+	display:block;
+	float:left;
+	height:80px;
+	width:300px; 
+	background-image:url(../img/coig.png);
+	background-repeat:no-repeat;
+	padding-bottom:10px;
+	text-indent:-20000px;
+	margin:10px 0px 10px 0px;
+	border-bottom:1px #CCC solid;
+}
+div#sidebar a:hover.banner{
+	background-position:bottom;
+	border-bottom:2px #F60 solid;
+}
+form#contacto{
+	display:block;
+	float:left;
+	margin-top:10px;
+	font-size:0.9em;
+	border-bottom:1px #CCC solid;
+	padding-bottom:10px;
+	margin-bottom:10PX;
+}
+form#contacto label{
+	width:80px;
+	height:16px;
+	padding-top:4px;
+	margin-right:20px;
+	display:block;
+	float:left;
+	margin-top:5px;
+	color:#999999;
+}
+form#contacto input{
+	width:190px;
+	height:20px;
+	border:none;
+	background-image:url(../img/bg_input.png);
+	color:#666;
+	display:block;
+	float:left;
+	margin-top:5px;
+	color:#999;
+	font-size:12px;
+}
+form#contacto input#enviar{
+	background-image:url(../img/bg_enviar.png);
+	color:#FFF;
+	display:block;
+	float:left;
+	margin-left:100px;
+}
+form#contacto input#enviar:hover{
+	color:#666;
+}
+form#contacto input#term{
+	height:10px;
+	width:10px;
+	border:1px solid #CCC;
+	margin-top:10px;
+}
+form#contacto p{
+	margin-top:8px;
+	display:block;
+	float:left;
+	color:#999999;
+	width:100%;
+}
+
+form#contacto textarea{
+	width:190px;
+	height:78px;
+	border:none;
+	background-image:url(../img/bg_input.png);
+	color:#999;
+	display:block;
+	float:left;
+	margin-top:5px;
+	padding-top:2px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
+	font-size:1EM;
+}
+/* Content */
+div#content h2{
+	width:640px;
+	height:19px;
+	background-repeat:no-repeat;
+	text-indent:-2000px;
+	float:left;
+	margin-bottom:10px;
+	border-bottom:1px solid #CCC;
+	padding-bottom:10px;
+	clear:both;
+}
+div#content  h2#noticias{
+	background-image:url(../img/tt_noticias.png);
+	margin-bottom:0px;
+	border-bottom:none;
+	padding-bottom:0px;
+	
+}
+div#content  h2#historia{background-image:url(../img/tt_historia.png);}
+div#content  h2#objetivos{background-image:url(../img/tt_objetivos.png);}
+div#content  h2#socios{	background-image:url(../img/tt_socio.png);}
+div#content  h2#alta{background-image:url(../img/tt_alta.png);}
+div#content  h2#formacion{background-image:url(../img/tt_formacion.png);}
+div#content  h2#profesional{background-image:url(../img/tt_profesional.png);}
+div#content  h2#biblioteca{background-image:url(../img/tt_biblioteca.png);}
+div#content  h2#boletin{background-image:url(../img/tt_boletin.png);}
+div#content  h2#asociacion{background-image:url(../img/tt_asociacion.png);}
+div#content  h2#desarrollo{background-image:url(../img/tt_desarrollo.png); margin-top:20px;}
+
+div#content p{
+	margin-bottom:10px;
+}
+div#content ul{
+	line-height:1.5em;
+	margin-bottom:20px;
+	margin-left:20px;
+	list-style-image:url(../img/list.png);
+}
+div#content ul li{
+	margin-bottom:5px;
+}
+div#content p.fecha{
+	margin-top:10px;
+	margin-bottom:0px;
+	color:#999999;
+	display:block;
+	float:left;
+	width:100%;
+	border-top:1px solid #CCC;
+	padding-top:10px;
+}
+div#content ol{
+	margin-left:30px;
+	line-height:1.5em;
+	list-style:decimal;
+	margin-bottom:10px;
+}
+div#content img.left{
+	float:left;
+	display:block;
+	margin-right:10px;
+	margin-top:5px;
+}
+div#content img.right{
+	float: right;
+	display:block;
+	margin-left:10px;
+	margin-top:5px;
+}
+div#content img.top{
+	float: left;
+	margin-bottom:10px;
+	margin-top:5px;
+}
+div#content a.titulo{
+	font-size:1.4em;
+	color:#337FA6;
+	margin-bottom:10px;
+	width:100%;
+	display:block;
+	text-decoration:none;
+	}
+div#content ul#archivos{
+	line-height:1.7em;
+	color:#337FA6;
+	margin-bottom:20px;
+}
+div#content ul#archivos a{
+	text-decoration:none;
+	color:#337FA6;
+}
+div#content ul#archivos a:hover{
+	color:#94AA26;
+}
+/* FORMULARIO DE ALTA*/
+div#content h3{
+	font-size:1em;
+	color:#333;
+	font-weight:bold;
+	margin:10px 0px;
+	float:left;
+	width:100%;
+	}
+form#formulario_alta div{
+	font-size:0.8em;
+	width:280px;
+	margin:10px 40px 20px 0px;
+	display:block;
+	float:left;
+}
+form#formulario_alta div.doble{
+	font-size:0.8em;
+	width:450px;
+	margin:10px 40px 20px 0px;
+	display:block;
+	float:left;
+}
+form#formulario_alta label{
+	margin-bottom:10px;
+	width:100%;
+	display:block;
+	float:left;
+}
+form#formulario_alta label span{
+	margin-top:4px;
+	float:left;
+}
+form#formulario_alta input{
+	color:#999;
+	height:13px;
+	border:#CCC 1px solid;
+	float:right;
+}
+form#formulario_alta input.enviar{
+	font-size:0.8em;
+	width:150px;
+	display:block;
+	float:right;
+	height:17px;
+	background-image:url(../img/bg_enviar.png);
+	border:none;
+	clear:both;
+	margin-right:40px;
+	color:#FFFFFF;
+}
+div#logo_partners{
+	margin:20px 0px 20px 10px;
+	float:left;
+	}
+div#logo_partners a{
+	margin:0px 8px 8px 0px;
+	border:1px solid #CCC;
+	float:left;
+	}
+/* FOOTER */
+div#center p{
+	display:block;
+	float:left;
+	clear:both;
+	width:400px;
+	color:#FFFFFF;
+	font-size:0.9em;
+	}
+div#center div{
+	color:#FFFFFF;
+	float:right;
+	font-size:0.9em;
+}
+div#center div a{
+	color:#FFFFFF;
+	text-decoration:none;
+}

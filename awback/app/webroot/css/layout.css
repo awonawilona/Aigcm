@@ -1,0 +1,21 @@
+/* CSS Document */
+div#header{
+	padding:35px 0px 0px 83px;
+	height:45px;
+}
+div#menu{
+	width:220px;
+	float:left;
+}
+div#content{
+	width:540px;
+	float:left;
+}
+div#footer{
+	width:540px;
+	float:left;
+}
+
+.cake-sql-log{
+	display: none;
+}
